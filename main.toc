@@ -1,0 +1,16 @@
+\babel@toc {slovak}{}\relax 
+\contentsline {chapter}{Úvod}{1}{chapter*.7}%
+\contentsline {chapter}{\numberline {1}Základné pojmy}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Jednoparametrický systém}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Obálka jednoparametrického systému nadplôch}{5}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Výpočet obálky}{11}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Prístup algebraickej geometrie}{11}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Prístup projektívnej geometrie}{14}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Kinematický prístup}{14}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}Obálky a ODR}{15}{subsection.1.3.4}%
+\contentsline {section}{\numberline {1.4}Aplikácie obálok a predošlá práca}{17}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Obálka sfér}{18}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Numerické metódy}{21}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Eulerova metóda}{22}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Geometrická interpretácia Eulerovej metódy}{22}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Prispôsobenie Eulerovej metódy na výpočet obálky}{23}{subsection.2.1.2}%
