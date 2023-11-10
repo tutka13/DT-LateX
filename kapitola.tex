@@ -7,7 +7,7 @@ Ak nakreslíme kružnice so stredom na x-ovej osi s polomerom 1, ako na obrázku
 \begin{figure}[h]
 	\centering
 	\includegraphics{images/system.pdf}
-	\caption{Systém kružníc.}
+	\caption[Systém kružníc.]{Systém kružníc.}
 	\label{fig:system}
 \end{figure}
 
@@ -35,12 +35,15 @@ $$ F_{-1}(x, y) = F(x, y, -1) = (x + 1)^2 + y^2 - 1. $$
 \begin{figure}[H]
 	\centering
 	\includegraphics{images/one_element_of_system.pdf}
-	\caption{Modrou farbou je vyznačená kružnica systému v parametri $t=-1$.}
+	\caption[Zobrazenie prvkov systému.]{Modrou farbou je vyznačená kružnica systému v parametri $t=-1$.}
 	\label{fig:one_element_of_system}
 \end{figure}
 
 \section{Obálka jednoparametrického systému nadplôch}
 Najskôr definujeme obálku jednoparametrického systému kriviek v $\mathbb{R}^2$. Uvedieme charakterizáciu obálok, ktorú možno použiť na výpočet pre jednoduchšie jednoparametrické systémy. Následne túto charakterizáciu použijeme ako definíciu pre obálku jednoparametrického systému plôch v $\mathbb{R}^n$.
+
+Definujme gradient $\nabla F(x,y,t) $ vzhľadom na $x$ a $y$ ako
+$$\nabla F(x, y, t) = \left(\frac{\partial F}{\partial x}(x, y, t), \frac{\partial F}{\partial y}(x, y, t) \right).$$ Predpokladáme, že $\nabla F(x,y,t) \neq \vec{0}. $ 
 
 \begin{definition}
 Obálkou systému kriviek $ \mathcal{F}_{t} $ je parametrizovaná krivka $\gamma(t) \colon J \subseteq I \rightarrow \mathbb{R}^{2}$ taká, že 
@@ -50,7 +53,7 @@ Obálkou systému kriviek $ \mathcal{F}_{t} $ je parametrizovaná krivka $\gamma
 \end{enumerate}
 \end{definition}
 
-Obálka $\gamma(t)$ sa dotýka každej krivky zo systému $F(x,y,t)$ v bode $(x, y)$  pre nejaké $t$ a v tomto bode má s krivkou zo systému rovnakú dotyčnicu. To znamená, že každý bod obálky ${\gamma}(t) = (\gamma_{1}(t),\gamma_{2}(t))$ spĺňa rovnicu systému $F(\gamma_{1}(t),\gamma_{2}(t),t)=0$ pre nejaké $t,$ a teda platí prvá podmienka $\gamma(t) \in \mathcal{F}_{t}$. Gradient funkcie $ \nabla F(x,y,t)$ je normálový vektor k $F(x,y,t)$ v regulárnom bode $(x,y)$ a parametri $t$. V spoločnom bode $(x,y)$ a parametri $t$ chceme rovnaký smer dotykového vektora pre $\gamma(t)$ a $F(x,y,t), $ z čoho vyplýva, že $\dot{\gamma}(t)$ a dotykový vektor k funkcii $F(x,y,t)$ sú lineárne závislé, z čoho dostávame $\dot{\gamma}(t) \perp \nabla F \left( \gamma(t), t \right), $ druhú podmienku v definícii obálky. Interval $J,$ na ktorom dostávame výslednú obálku môže byť menší ako interval $I,$ na ktorom bol definovaný systém kriviek, teda máme $J \subseteq I.$
+Obálka $\gamma(t)$ sa dotýka každej krivky zo systému $F(x,y,t)$ v bode $(x, y)$  pre nejaké $t$ a v tomto bode má s krivkou zo systému rovnakú dotyčnicu. To znamená, že každý bod obálky ${\gamma}(t) = (\gamma_{1}(t),\gamma_{2}(t))$ spĺňa rovnicu systému $F(\gamma_{1}(t),\gamma_{2}(t),t)=0$ pre nejaké $t,$ a teda platí prvá podmienka $\gamma(t) \in \mathcal{F}_{t}$. Gradient funkcie $ \nabla F(x,y,t)$ je normálový vektor k $F(x,y,t)$ v regulárnom bode $(x,y)$ a parametri $t$. V spoločnom bode $(x,y)$ a parametri $t$ chceme rovnaký smer dotykového vektora pre $\gamma(t)$ a $F(x,y,t), $ z čoho vyplýva, že $\dot{\gamma}(t)$ a dotykový vektor k funkcii $F(x,y,t)$ sú lineárne závislé, z čoho dostávame $\dot{\gamma}(t) \perp \nabla F \left( \gamma(t), t \right), $ druhú podmienku v definícii obálky. Interval $J,$ na ktorom dostávame výslednú obálku môže byť menší ako interval $I,$ na ktorom bol definovaný systém kriviek, teda máme $J \subseteq I.$ Ak by bol gradient $\nabla F(x,y,t) $ v nejakom bode nulový, nevieme nájsť jednoznačne dotykový vektor obálky a systému. 
 
 \begin{theorem}
 Regulárna krivka $\gamma(t) \colon J \subseteq I \rightarrow \mathbb{R}^{2}$ kde $t \in J  \subseteq I$ je obálkou jednoparametrického systému $\mathcal{F}_{t}$ práve vtedy, keď spĺňa:
@@ -105,12 +108,10 @@ Z druhej rovnice máme $t=-1 \neq 0,$ teda systém nemá riešenie. Aj keď by s
 	\label{fig:concentric_circles}
 \end{figure}
 
-Po celý čas sme predpokladali, že gradient $\nabla F(x,y,t) $ je vzhľadom na $x$ a $y$ nenulový, t. j.
-$$\nabla F(x, y, t) = \left(\frac{\partial F}{\partial x}(x, y, t), \frac{\partial F}{\partial y}(x, y, t) \right) \neq \vec{0}.$$ Ak by bol gradient v nejakom bode nulový, nevieme nájsť jednoznačne dotykový vektor obálky a systému. 
 
 Prístup, ktorý sme využili pre jednoparametrický systém kriviek, možno zovšeobecniť pre ľubovoľný jednoparametrický systém plôch v $\mathbb{R}^n.$
 
-\begin{definition}\textit{\textbf{(Charakterizácia)}}
+\begin{definition}{\textbf{\textup{(Charakterizácia.)}}}
 Obálkou jednoparametrického systému plôch $ \mathcal{F}_{t} $ je množina bodov $\mathcal{E}$ daná
 $$\mathcal{E} = \{(x_{1}, x_{2}, \dots, x_{n})  \in \mathbb{R}^{n} \colon \exists t \in \mathbb{R}, F(x_{1}, x_{2}, \dots, x_{n}, t) = \frac{\partial F}{\partial t}(x_{1}, x_{2}, \dots, x_{n}, t) = 0 \}.$$
 \end{definition}
@@ -174,37 +175,9 @@ Vo väčšine prípadov sú rovnice charakterizujúce obálku systému plôch pr
 \subsection{Prístup algebraickej geometrie}
 Dokonca aj v prípade jednoduchého príkladu ako \ref{example:too_complicated_equations}, obe polynomické rovnice charakterizujúce obálku sú vysokého stupňa v parametri $t$, preto je odstránenie parametera $t$ náročné bez vhodného nástroja. Štandardným aparátom na túto úlohu sú Gröbnerove bázy. Gröbnerove bázy sú kľúčovým pojmom v algebraickej geometrii a počítačovej algebre. Ide o špeciálnu množinu polynómov vo viacerých premenných, ktoré majú niekoľko dôležitých vlastností a zohrávajú kľúčovú úlohu pri riešení rôznych matematických problémoch vrátane riešenia sústav polynomických rovníc, zjednodušovania polynómov a dokazovania rôznych algebraických tvrdení. Vybudovanie tejto teórie je pomerne zdĺhavé, preto odkážeme na bohaté teoretické pozadie v \cite{Chalm}.
 Najprv vypočítame Gröbnerovu bázu Buchbergerovým algoritmom pre ideál generovaný sústavou polynomických rovníc, ktorá obsahuje všetky premenné vrátane tej, ktorú chceme eliminovať. Z Gröbnerovej bázy vyberieme polynómy, ktoré obsahujú premennú, ktorú chceme eliminovať. Tieto polynómy použijeme na vyjadrenie tejto premennej v závislosti od ostatných premenných. Po vyriešení nových rovníc získame výraz, ktorý opisuje vzťah medzi zvyšnými premennými a eliminovanou premennou. Týmto spôsobom úspešne eliminujeme premennú.
-Pokúsme sa vypočítať Gröbnerovu bázu príkladu \ref{example:too_complicated_equations} vzhľadom na lexikografické usporiadanie monómov $t > x > y $. Keďže výpočet Gröbnerovej bázy trvá pomerne dlho, neuvádzame postup, iba výsledok. (možno neuvedieme)
+Pokúsme sa vypočítať Gröbnerovu bázu príkladu \ref{example:too_complicated_equations} vzhľadom na lexikografické usporiadanie monómov $t > x > y $. Keďže výpočet Gröbnerovej bázy trvá pomerne dlho, neuvádzame postup a výsledok možno nájsť v prílohe \ref{pri:priloha1}.
 
-$$ G = \{g_1, g_2, g_3, g_4, g_5, g_6 \}, \text{ kde } $$
-\begin{align*}
-g_1 &= 8232129896496000t^3 - 15949751674461t^2y^7 - 161384046512557t^2y^5 \\
-&\quad - 1204463505481071t^2y^3 - 6169809854717575t^2y + 15430671472tx^2y^{12} \\
-&\quad + 426513396863tx^2y^{10} - 15006102325790tx^2y^8 - 319921877859794tx^2y^6 \\
-&\quad + 3932980083404115tx^2y^4 + 26096343414243210tx^2y^2 - 5927133525477120tx^2 \\
-&\quad + 8232129896496000t - 89991676024704x^6y^3 + 2209014462034224x^6y \\
-&\quad - 123445371776x^4y^9 + 5668842986368x^4y^7 - 43236019313379x^4y^5 \\ 
-&\quad + 216584367885756x^4y^3 - 17414290688695056x^4y - 138876043248x^2y^{11} \\
-&\quad + 5550943018945x^2y^9 + 43203483205279x^2y^7 - 2080524984593504x^2y^5 \\
-&\quad - 7412218093958823x^2y^3 + 19070089710359527x^2y - 15949751674461y^7 \\
-&\quad - 161384046512557y^5 - 1204463505481071y^3 - 6169809854717575y \\
-g_2 &= 1029016237062t^2x^2 + 3835312tx^2y^{11} + 224556467tx^2y^9 + 2456837050tx^2y^7 \\
-&\quad - 42939029714tx^2y^5 - 622020302148tx^2y^3 + 2792792777023tx^2y - 22367539584x^6y^2\\
-&\quad - 142307343504x^6 - 30682496x^4y^8 + 460629376x^4y^6 + 9525009465x^4y^4 \\
-&\quad + 219270724812x^4y^2 + 1396561520952x^4 - 34517808x^2y^{10} + 312779149x^2y^8 \\
-&\quad + 27193951123x^2y^6 + 222693218689x^2y^4 + 454926520789x^2y^2 - 1254254177448x^2 \\
-g_3 &= \dots 
-\end{align*}
-
-%$$ g_1 = 8232129896496000t^3 - 15949751674461t^2y^7 - 161384046512557t^2y^5 - 1204463505481071t^2y^3 - 6169809854717575t^2y + 15430671472tx^2y^12 + 426513396863tx^2y^10 - 15006102325790tx^2y^8 - 319921877859794tx^2y^6 + 3932980083404115tx^2y^4 + 26096343414243210tx^2y^2 - 5927133525477120tx^2 + 8232129896496000t - 89991676024704x^6y^3 + 2209014462034224x^6y - 123445371776x^4y^9 + 5668842986368x^4y^7 - 43236019313379x^4y^5 + 216584367885756x^4y^3 - 17414290688695056x^4y - 138876043248x^2y^11 + 5550943018945x^2y^9 + 43203483205279x^2y^7 - 2080524984593504x^2y^5 - 7412218093958823x^2y^3 + 19070089710359527x^2y - 15949751674461y^7 - 161384046512557y^5 - 1204463505481071y^3 - 6169809854717575y
-%g_2 = 1029016237062t^2x^2 + 3835312tx^2y^11 + 224556467tx^2y^9 + 2456837050tx^2y^7 - 42939029714tx^2y^5 - 622020302148tx^2y^3 - 2792792777023tx^2y - 22367539584x^6y^2 - 142307343504x^6 - 30682496x^4y^8 + 460629376x^4y^6 + 9525009465x^4y^4 + 219270724812x^4y^2 + 1396561520952x^4 - 34517808x^2y^10 + 312779149x^2y^8 + 27193951123x^2y^6 + 222693218689x^2y^4 + 454926520789x^2y^2 - 1254254177448x^2
-%g_3 = 171502706177t^2y^8 + 2058032474124t^2y^6 + 14749232731222t^2y^4 + 51450811853100t^2y^2 + 107189191360625t^2 + 8570784208tx^2y^11 + 447143859077tx^2y^9 + 2637043681390tx^2y^7 - 114540691274161tx^2y^5 - 650595377992068tx^2y^3 - 329349595559310tx^2y - 49984813501056x^6y^2 + 839468449296x^6 - 68566273664x^4y^8 + 1466755633792x^4y^6 + 11936450992239x^4y^4 + 413705122761564x^4y^2 + 188859580240104x^4 - 77137057872x^2y^10 + 1191027458875x^2y^8 + 53352589022478x^2y^6 + 162741630161810x^2y^4 - 276360042692994x^2y^2 - 296888240050025x^2 + 171502706177y^8 + 2058032474124y^6 + 14749232731222y^4 + 51450811853100y^2 + 107189191360625
-%g_4 = 3319374168tx^4 + 4112tx^2y^12 + 419465tx^2y^10 + 11960430tx^2y^8 + 9104606tx^2y^6 - 3087637940tx^2y^4 - 14225835735tx^2y^2 - 3841868250tx^2 - 23981184x^6y^3 - 1194801840x^6y - 32896x^4y^9 - 935808x^4y^7 + 40771323x^4y^5 + 484488324x^4y^3 + 9021165372x^4y - 37008x^2y^11 - 1273033x^2y^9 + 53962761x^2y^7 + 1348048703x^2y^5 + 2769404571x^2y^3 - 7303869450x^2y 
-%g_5 = 16tx^2y^13 + 1321tx^2y^11 + 29688tx^2y^9 - 92522tx^2y^7 - 7839424tx^2y^5 - 31597167tx^2y^3 - 1560600tx^2y - 93312x^6y^4 - 2834352x^6y^2 + 3569184x^6 - 128x^4y^10 - 1152x^4y^8 + 110331x^4y^6 + 1346274x^4y^4 + 23526288x^4y^2 - 7700184x^4 - 144x^2y^12 - 2153x^2y^10 + 172287x^2y^8 + 3228925x^2y^6 + 5234421x^2y^4 - 18569520x^2y^2 + 4131000x^2
-%g_6 = 11664x^8 + 16x^6y^6 - 585x^6y^4 + 5076x^6y^2 - 38664x^6 - x^4y^10 - 5x^4y^8 - 884x^4y^6 - 6916x^4y^4 + 5885x^4y^2 + 42625x^4 - x^2y^12 - 18x^2y^10 - 183x^2y^8 - 1116x^2y^6 - 4575x^2y^4 - 11250x^2y^2 - 15625x^2
-%$$
-
-Gröbnerova báza vzhľadom na iné usporiadanie, napr. grevlex je zvyčajne vypočítaná oveľa rýchlejšie a jej polynómy majú krajšie koeficienty, no na druhej strane, prístup nie je možné všeobecne použiť na odstránenie premennej $t$ z rovníc. 
+Gröbnerova báza vzhľadom na iné usporiadanie, napr. grevlex je zvyčajne vypočítaná oveľa rýchlejšie a jej polynómy majú krajšie koeficienty, no na druhej strane, tento prístup nie je vo všeobecnosti možné použiť na odstránenie premennej $t$ z rovníc. 
 
 Existujú aj iné metódy na riešenie polynomických rovníc, ktoré nie sú závislé na usporiadaní monómov. 
 Spôsob, ako nájsť polynóm, ktorý leží v prvom eliminačnom ideáli, ktorý je nezávislý na Gröbnerovej bázach a monómických usporiadaniach, využíva teóriu rezultantov. Rezultant je determinant matice polynómov.
@@ -246,7 +219,7 @@ g_t \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix}
 \end{pmatrix}
 \begin{pmatrix} x \\ y \end{pmatrix}.
 \]
-Pre každé $t \in \mathbb{R}$, $g_t$ zodpovedá rotácii. Grupa všetkých rotácií je $\mathbb{SO}(2)$ a nazýva sa špeciálna ortogonálna grupa. Pre $t = 0$, dostávame priamku $l$. Pre iné $t$, napríklad $t = \frac{\pi}{2}$, dostávame priamku
+Pre každé $t \in \mathbb{R}$, $g_t$ zodpovedá rotácii. Grupa všetkých rotácií je $SO(n)$ a nazýva sa špeciálna ortogonálna grupa. Pre $t = 0$, dostávame priamku $l$. Pre iné $t$, napríklad $t = \frac{\pi}{2}$, dostávame priamku
 \begin{align*}
 g_t(l) \colon x(u) &= -u \\
 y(u) &= 1. \\
@@ -262,7 +235,7 @@ Na obrázku \ref{fig:lines_in_normal_form} je znázornená priamka $l$ modrou fa
 
 \end{example}
 
-Transformácie $g_{t}$ z príkladu sú prvkami Lieovej grupy. Ďalšie známe príklady maticových Lieovych grúp sú ortogonálna grupa, unitárna a špeciálna unitárna grupa. 
+Transformácie $g_{t}$ z príkladu sú prvkami Lieovej grupy $SO(n)$. Ďalšie známe príklady maticových Lieovych grúp sú ortogonálna grupa $O(n)$, unitárna $U(n)$ a špeciálna unitárna grupa $SU(n).$ 
 Pre nájdenie podrobnejších informácií, sa môže čitateľ obrátiť na ľubovoľnú úvodnú učebnicu o Lieovych grupách a Lieovych algebrách, ako je napríklad \cite{Lee12}.
 Použili sme štruktúru Lieovej grupy, aby sme opísali, ako sa grupa transformuje daný povrch. Ďalej, využijúc štruktúru hladkej variety môžeme opísať jednoparametrický systém plôch výlučne pomocou terminológie Lieových grúp. Táto teória sa aplikuje na nájdenie parametrizácie obálok kvadratických plôch. Viac o tomto prístupe možno nájsť v \cite{Vra22}. 
 
@@ -375,6 +348,6 @@ Rúrkové povrchy sa často objavujú pri výrobe potrubia. Hladké spojenie med
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{images/rolling_ball_blends.png}
-	\caption{Technika rolling ball blend.}
+	\caption[Technika rolling ball blends.]{Technika rolling ball blend s konštatným polomerom vľavo, s nekonštantným polomerom vpravo.}
 	\label{fig:rolling_ball_blends}
 \end{figure}

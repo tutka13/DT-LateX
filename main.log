@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.25)  7 NOV 2023 19:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.25)  10 NOV 2023 13:38
 entering extended mode
 **./main.tex
 (main.tex
@@ -1020,7 +1020,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 109
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 [2]
-<images/zadanieJT.pdf, id=78, 597.50731pt x 845.04607pt>
+<images/zadanieJT.pdf, id=86, 597.50731pt x 845.04607pt>
 File: images/zadanieJT.pdf Graphic file (type pdf)
 <use images/zadanieJT.pdf>
 Package pdftex.def Info: images/zadanieJT.pdf  used on input line 137.
@@ -1063,7 +1063,7 @@ l.170 \newpage
 
 ]
 Kapitola 1.
-<images/system.pdf, id=210, 462.52798pt x 346.89601pt>
+<images/system.pdf, id=217, 462.52798pt x 346.89601pt>
 File: images/system.pdf Graphic file (type pdf)
 <use images/system.pdf>
 Package pdftex.def Info: images/system.pdf  used on input line 9.
@@ -1074,7 +1074,7 @@ Overfull \hbox (21.50911pt too wide) in paragraph at lines 9--10
  []
 
 [3 <./images/system.pdf>]
-<images/one_element_of_system.pdf, id=246, 462.52798pt x 346.89601pt>
+<images/one_element_of_system.pdf, id=256, 462.52798pt x 346.89601pt>
 File: images/one_element_of_system.pdf Graphic file (type pdf)
 <use images/one_element_of_system.pdf>
 Package pdftex.def Info: images/one_element_of_system.pdf  used on input line 3
@@ -1090,7 +1090,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4]
 [5 <./images/one_element_of_system.pdf>]
-Overfull \hbox (6.89449pt too wide) in paragraph at lines 72--74
+Overfull \hbox (6.89449pt too wide) in paragraph at lines 75--77
 \T1/cmr/m/n/12 Nako©ko po-ºa-du-jeme, aby gra-dient fun-kcie $\OMS/cmsy/m/n/12 
 r\OML/cmm/m/it/12 F\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 []\OT1/cmr/m/n/12 (\OML/c
 mm/m/it/12 t\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; []\OT1/cmr/m/n/12 (\OML/cmm/m/
@@ -1099,14 +1099,14 @@ ol kolmý na $[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t\OT1/cmr/m/n/12 )[]$
  []
 
 [6]
-<images/concentric_circles.pdf, id=293, 462.52798pt x 346.89601pt>
+<images/concentric_circles.pdf, id=304, 462.52798pt x 346.89601pt>
 File: images/concentric_circles.pdf Graphic file (type pdf)
 <use images/concentric_circles.pdf>
-Package pdftex.def Info: images/concentric_circles.pdf  used on input line 103.
+Package pdftex.def Info: images/concentric_circles.pdf  used on input line 106.
 
 (pdftex.def)             Requested size: 462.52684pt x 346.89516pt.
 
-Overfull \hbox (21.50911pt too wide) in paragraph at lines 103--104
+Overfull \hbox (21.50911pt too wide) in paragraph at lines 106--107
  [][] 
  []
 
@@ -1114,52 +1114,48 @@ Overfull \hbox (21.50911pt too wide) in paragraph at lines 103--104
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
-Underfull \vbox (badness 2205) has occurred while \output is active []
-
- [8 <./images/concentric_circles.pdf>]
-<images/system_with_envelope_unlimited_domain.pdf, id=328, 462.52798pt x 346.89
+[8 <./images/concentric_circles.pdf>]
+<images/system_with_envelope_unlimited_domain.pdf, id=337, 462.52798pt x 346.89
 601pt>
 File: images/system_with_envelope_unlimited_domain.pdf Graphic file (type pdf)
 <use images/system_with_envelope_unlimited_domain.pdf>
 Package pdftex.def Info: images/system_with_envelope_unlimited_domain.pdf  used
- on input line 133.
+ on input line 134.
 (pdftex.def)             Requested size: 462.52684pt x 346.89516pt.
 
-Overfull \hbox (21.50911pt too wide) in paragraph at lines 133--134
+Overfull \hbox (21.50911pt too wide) in paragraph at lines 134--135
  [][] 
  []
 
-<images/system_with_correct_envelope.pdf, id=329, 462.52798pt x 346.89601pt>
+<images/system_with_correct_envelope.pdf, id=338, 462.52798pt x 346.89601pt>
 File: images/system_with_correct_envelope.pdf Graphic file (type pdf)
 <use images/system_with_correct_envelope.pdf>
 Package pdftex.def Info: images/system_with_correct_envelope.pdf  used on input
- line 142.
+ line 143.
 (pdftex.def)             Requested size: 462.52684pt x 346.89516pt.
 
-Overfull \hbox (21.50911pt too wide) in paragraph at lines 142--143
+Overfull \hbox (21.50911pt too wide) in paragraph at lines 143--144
  [][] 
  []
 
-[9 <./images/system_with_envelope_unlimited_domain.pdf>]
-<images/too_complicated_equations.pdf, id=356, 462.52798pt x 346.89601pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9 <./images/system_with_envelope_unlimited_domain.pdf>]
+<images/too_complicated_equations.pdf, id=365, 462.52798pt x 346.89601pt>
 File: images/too_complicated_equations.pdf Graphic file (type pdf)
 <use images/too_complicated_equations.pdf>
 Package pdftex.def Info: images/too_complicated_equations.pdf  used on input li
-ne 166.
+ne 167.
 (pdftex.def)             Requested size: 462.52684pt x 346.89516pt.
 
-Overfull \hbox (21.50911pt too wide) in paragraph at lines 166--167
+Overfull \hbox (21.50911pt too wide) in paragraph at lines 167--168
  [][] 
  []
 
 [10 <./images/system_with_correct_envelope.pdf>] [11 <./images/too_complicated_
 equations.pdf>]
-Overfull \hbox (13.026pt too wide) detected at line 197
-[]
- []
-
-[12]
-Overfull \hbox (0.4518pt too wide) in paragraph at lines 214--215
+Overfull \hbox (0.4518pt too wide) in paragraph at lines 187--188
 \OT1/cmr/m/n/12 633470976\OML/cmm/m/it/12 x[] \OMS/cmsy/m/n/12   \OT1/cmr/m/n/1
 2 16384\OML/cmm/m/it/12 x[]y[] \OMS/cmsy/m/n/12   \OT1/cmr/m/n/12 81920\OML/cmm
 /m/it/12 x[]y[] \OMS/cmsy/m/n/12   \OT1/cmr/m/n/12 14483456\OML/cmm/m/it/12 x[]
@@ -1167,50 +1163,54 @@ y[] \OMS/cmsy/m/n/12   \OT1/cmr/m/n/12 113311744\OML/cmm/m/it/12 x[]y[] \OT1/cm
 r/m/n/12 + 96419840\OML/cmm/m/it/12 x[]y[] \OT1/cmr/m/n/12 +
  []
 
-<images/resultant.pdf, id=424, 462.52798pt x 346.89601pt>
+<images/resultant.pdf, id=429, 462.52798pt x 346.89601pt>
 File: images/resultant.pdf Graphic file (type pdf)
 <use images/resultant.pdf>
-Package pdftex.def Info: images/resultant.pdf  used on input line 218.
+Package pdftex.def Info: images/resultant.pdf  used on input line 191.
 (pdftex.def)             Requested size: 462.52684pt x 346.89516pt.
 
-Overfull \hbox (21.50911pt too wide) in paragraph at lines 218--219
+Overfull \hbox (21.50911pt too wide) in paragraph at lines 191--192
  [][] 
  []
 
-[13 <./images/resultant.pdf>]
-<images/lines_in_normal_form.pdf, id=454, 462.52798pt x 346.89601pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+Underfull \vbox (badness 4156) has occurred while \output is active []
+
+ [13 <./images/resultant.pdf>]
+<images/lines_in_normal_form.pdf, id=463, 462.52798pt x 346.89601pt>
 File: images/lines_in_normal_form.pdf Graphic file (type pdf)
 <use images/lines_in_normal_form.pdf>
-Package pdftex.def Info: images/lines_in_normal_form.pdf  used on input line 25
-8.
+Package pdftex.def Info: images/lines_in_normal_form.pdf  used on input line 23
+1.
 (pdftex.def)             Requested size: 462.52684pt x 346.89516pt.
 
-Overfull \hbox (21.50911pt too wide) in paragraph at lines 258--259
+Overfull \hbox (21.50911pt too wide) in paragraph at lines 231--232
  [][] 
  []
 
 
-Underfull \vbox (badness 2932) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14]
-Underfull \vbox (badness 1303) has occurred while \output is active []
-
- [15 <./images/lines_in_normal_form.pdf>]
-<images/odr.pdf, id=481, 462.52798pt x 346.89601pt>
+[15 <./images/lines_in_normal_form.pdf>]
+<images/odr.pdf, id=490, 462.52798pt x 346.89601pt>
 File: images/odr.pdf Graphic file (type pdf)
 <use images/odr.pdf>
-Package pdftex.def Info: images/odr.pdf  used on input line 287.
+Package pdftex.def Info: images/odr.pdf  used on input line 260.
 (pdftex.def)             Requested size: 462.52684pt x 346.89516pt.
 
-Overfull \hbox (21.50911pt too wide) in paragraph at lines 287--288
+Overfull \hbox (21.50911pt too wide) in paragraph at lines 260--261
  [][] 
  []
 
 [16 <./images/odr.pdf>]
-<images/webb_bridge.jpg, id=510, 2055.68pt x 1539.7525pt>
+<images/webb_bridge.jpg, id=519, 2055.68pt x 1539.7525pt>
 File: images/webb_bridge.jpg Graphic file (type jpg)
 <use images/webb_bridge.jpg>
-Package pdftex.def Info: images/webb_bridge.jpg  used on input line 308.
+Package pdftex.def Info: images/webb_bridge.jpg  used on input line 281.
 (pdftex.def)             Requested size: 441.01773pt x 330.3355pt.
 
 
@@ -1218,17 +1218,17 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instea
-d on input line 314.
+d on input line 287.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17]
 [18 <./images/webb_bridge.jpg>] [19]
-<images/rolling_ball_blends.png, id=533, 713.66624pt x 253.94875pt>
+<images/rolling_ball_blends.png, id=542, 713.66624pt x 253.94875pt>
 File: images/rolling_ball_blends.png Graphic file (type png)
 <use images/rolling_ball_blends.png>
-Package pdftex.def Info: images/rolling_ball_blends.png  used on input line 377
+Package pdftex.def Info: images/rolling_ball_blends.png  used on input line 350
 .
 (pdftex.def)             Requested size: 441.01773pt x 156.93121pt.
 ) (numerika.tex [20 <./images/rolling_ball_blends.png>]
@@ -1290,18 +1290,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 276--277
 stream / handle / 20 . 500 . 11956 / 171858 /
  []
 
-[26] (main.aux)
+[26] (AppendixA.tex [27
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29])
+[30] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 91DFFE789B25FE6561A5EB1E1283C1CC;2793.
+(rerunfilecheck)             Checksum: C20552B03796B325172692A7939A58FD;2989.
  ) 
 Here is how much of TeX's memory you used:
- 33620 strings out of 478927
- 777273 string characters out of 2852534
- 1232589 words of memory out of 3000000
- 50767 multiletter control sequences out of 15000+600000
+ 33630 strings out of 478927
+ 777342 string characters out of 2852534
+ 1243589 words of memory out of 3000000
+ 50769 multiletter control sequences out of 15000+600000
  423639 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,10n,103p,1133b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 99i,10n,103p,1186b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/tutko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-sup
 er-t1.enc}<C:/Users/tutko/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmbx12.pfb><C:/Users/tutko/AppData/Local/Programs/MiKTeX/fonts/type1/pu
@@ -1317,21 +1326,20 @@ ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users
 cm/cmsy10.pfb><C:/Users/tutko/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmsy8.pfb><C:/Users/tutko/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/amsfonts/symbols/msbm10.pfb><C:/Users/tutko/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/cm-super/sfbi1200.pfb><C:/Users/tutko/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Users/tutko/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Users/tutko/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1728.pfb><C:/Users/t
-utko/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx2488.pfb><C:
-/Users/tutko/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfcc1440
+eX/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Users/tutko/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Users/tutko/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1728.pfb><C:/Users/tutko/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx2488.pfb><C:/Users/t
+utko/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfcc1440.pfb><C:
+/Users/tutko/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfcc2074
 .pfb><C:/Users/tutko/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/
-sfcc2074.pfb><C:/Users/tutko/AppData/Local/Programs/MiKTeX/fonts/type1/public/c
-m-super/sfrm1200.pfb><C:/Users/tutko/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/cm-super/sfsl1200.pfb><C:/Users/tutko/AppData/Local/Programs/MiKTeX/font
-s/type1/public/cm-super/sfti1200.pfb><C:/Users/tutko/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (38 pages, 2116088 bytes).
+sfrm1200.pfb><C:/Users/tutko/AppData/Local/Programs/MiKTeX/fonts/type1/public/c
+m-super/sfsl1200.pfb><C:/Users/tutko/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/cm-super/sfti1200.pfb><C:/Users/tutko/AppData/Local/Programs/MiKTeX/font
+s/type1/public/cm-super/sftt1200.pfb>
+Output written on main.pdf (42 pages, 2099861 bytes).
 PDF statistics:
- 713 PDF objects out of 1000 (max. 8388607)
- 106 named destinations out of 1000 (max. 500000)
- 193 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 736 PDF objects out of 1000 (max. 8388607)
+ 111 named destinations out of 1000 (max. 500000)
+ 209 words of extra memory for PDF output out of 10000 (max. 10000000)
 
