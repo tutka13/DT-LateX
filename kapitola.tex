@@ -98,7 +98,7 @@ Obálku systému sústredných kružníc pre $t \in I=[\frac{1}{10},2]$ rátame 
 F(x, y, t) &= x^2 + y^2 - t, \\
 \frac{\partial F}{\partial t}(x,y,t) &= -1. \\
 \end{align*}
-Z druhej rovnice máme $t=-1 \neq 0,$ teda systém nemá riešenie. Aj keď by sa nám mohlo zdať, že by obálkou mohli byť body kružnice s najväčším polomerom $F_2$ a kružnice s najmenším polomerom $F_{\frac{1}{10}}$, práve podmienka existencie takej krivky $\gamma(t),$ ktorá by patrila do systému kružníc $\mathcal{F}_t$ pre všetky $t$ z intervalu $J \subseteq  I $ nie je splnená.
+Z druhej rovnice máme $t=-1 \neq 0,$ teda systém nemá riešenie. Aj keď by sa nám mohlo zdať, že by obálkou mohli byť body kružnice s najväčším polomerom $F_2$ a kružnice s najmenším polomerom $F_{\frac{1}{10}}$, práve podmienka existencie takej krivky $\gamma(t),$ ktorá by patrila do systému kružníc $\mathcal{F}_t$ pre všetky $t$ z intervalu $J \subseteq  I, $ nie je splnená.
 \end{example}
 
 \begin{figure}[H]
@@ -136,7 +136,7 @@ Ak $t = x, $ tak $y^2 = 1.$ Teda obálka je podľa tejto charakterizácie $ y = 
 	\label{fig:system_with_envelope_unlimited_domain}
 \end{figure}
 
-V skutočnosti sú obálkou krivky $y=\pm 1$ definované na intervale $[-1,1]$.
+V skutočnosti sú obálkou úsečky $y=\pm 1$ definované na intervale $[-1,1]$.
 
 \begin{figure}[H]
 	\centering
@@ -149,7 +149,7 @@ Tento problém možno ošetriť tak, že budeme uvažovať systémy kriviek, kto
 
 \begin{example}
 \label{example:too_complicated_equations}
-Počítajme obálku systému kriviek znázornenom na obrázku \ref{fig:too_complicated_equations}, ktorý je daný
+Počítajme obálku systému kriviek, znázorneného na obrázku \ref{fig:too_complicated_equations}, ktorý je daný vzťahmi
 \begin{align*}
 F(x,y, t) &= \dfrac{x^2}{(t^2 + 1)^2} + (y - 2t)^2 - 1, \\
 \dfrac{\partial F}{\partial t}(x, y, t) &= -\dfrac{4x^2t}{\left(t^2+1\right)^3}-4\left(y-2t\right). \\
@@ -159,7 +159,7 @@ Vynásobením prvej rovnice $ \lambda(t) = (t^2 + 1)^2$ a derivovaním získavam
 F^\lambda &= 4 t^6 - 4 t^5 y + t^4 y^2 + 7 t^4 - 8 t^3 y + 2 t^2 y^2 + 2 t^2 - 4 t y + x^2 + y^2 - 1, \\
 F_t^\lambda &= 24t^5-20yt^4+4y^2t^3+28t^3-24yt^2+4y^2t+4t-4y. \\
 \end{align*}
-Na obrázku \ref{fig:too_complicated_equations} je znázornený tento systém elíps. Obálku nájdeme ako riešenie $F^\lambda \cap F_t^\lambda. $ Rovnice sú však príliš vysokého stupňa v parametri $t$, preto nevieme implicitnú rovnicu obálky bez vhodného nástroja vyjadriť. V ďalšej časti rozoberieme prístupy výpočtu.
+Na obrázku \ref{fig:too_complicated_equations} je znázornený tento systém elíps pre $t \in [-2,2]$ s krokom $\Delta t=0.1$. Obálku nájdeme ako riešenie $F^\lambda \cap F_t^\lambda. $ Rovnice sú však príliš vysokého stupňa v parametri $t$, preto nevieme implicitnú rovnicu obálky bez vhodného nástroja vyjadriť. V ďalšej časti rozoberieme prístupy výpočtu.
 \end{example}
 
 \begin{figure}[H]
@@ -195,7 +195,7 @@ $ Res(F^\lambda , F_t^\lambda , t) = 191102976x^{10} + 262144x^8y^6 - 9584640x^8
 
 Navyše táto metóda, rovnako ako metóda založená na eliminačnej teórii s použitím Gröbnerových báz, nám vypočíta správnu obálku len vtedy, ak uvažujeme parameter $t$ jednoparametrického systému z celej reálnej priamky. Ak obmedzíme oblasť parametra na interval, tak obálka zvyčajne nemôže byť daná implicitnou rovnicou, a preto je potrebné nájsť nejakú parametrizáciu obálky. 
 
-Pri použití rezultantov máme lepšiu kontrolu nad zložitosťou výpočtu. Pre dané dva polynómy totiž vieme, ako sa konštruuje rezultant, a tak vieme odhadnúť, s akými veľkými polynómami sa bude počas výpočtu manipulovať, avšak pri hľadaní Gröbnerovej bázy je ťažké odhadnúť, ako zložité S-polynómy sa behom algoritmu vyskytnú. Nie je zriedkavosťou, že S-polynómy sú podstatne komplikovanejšie než vstupné polynómy a výsledná Gröbnerova báza.
+Pri použití rezultantov máme lepšiu kontrolu nad zložitosťou výpočtu. Pre dané dva polynómy totiž vieme, ako sa konštruuje rezultant, a tak vieme odhadnúť, s akými veľkými polynómami sa bude počas výpočtu manipulovať, avšak pri hľadaní Gröbnerovej bázy je ťažké odhadnúť, aké zložité S-polynómy sa behom algoritmu vyskytnú. Nie je zriedkavosťou, že S-polynómy sú podstatne komplikovanejšie než vstupné polynómy a výsledná Gröbnerova báza.
 
 \subsection{Prístup projektívnej geometrie}
 Pribudne neskôr.
@@ -265,21 +265,21 @@ Obálka tejto jednoparametrickej rodiny priamok, ktorou je parabola $y = x^2$, r
 \section{Aplikácie obálok a predošlá práca}
 Vzhľadom na výskyt obálok v aplikáciách sa obálkam venuje veľká pozornosť. Stručne spomenieme niektoré aplikácie a odkážeme na literatúru. 
 
-Výpočet obálky pohybujúcej sa plochy sa vyskytuje pri simulácii a CNC obrábaní. CNC obrábanie \textit{(Computer Numerical Control machining)}  je výrobný subtraktívny proces, pri ktorom počítač riadi stroje, napríklad vŕtačky, frézy a sústruhy tak, aby neustále odlamovali obrobok. Tento postup sa vykonáva, kým sa nevytvorí požadovaný tvar. Rezný nástroj vytvára pri rýchlom otáčavom pohybe okolo svojej osi rotačnú plochu. Takto vytvorená plocha je časť obálky pohybujúceho sa nástroja. CNC frézovanie má široké priemyselné využitie v odvetviach ako letecký priemysel, zdravotníctvo a spotrebná elektronika. V článku \cite{Skop20} sa možno dočítať viac o výpočte obálok pri 5-osovom CNC obrábaní.  
+Výpočet obálky pohybujúcej sa plochy sa vyskytuje pri simulácii a CNC obrábaní. CNC obrábanie \textit{(Computer Numerical Control machining)}  je výrobný subtraktívny proces, pri ktorom počítač riadi stroje, napríklad vŕtačky, frézy a sústruhy tak, aby neustále odlamovali nadbytočnosti z obrobku. Tento postup sa vykonáva, kým sa nevytvorí požadovaný tvar. Rezný nástroj vytvára pri rýchlom otáčavom pohybe okolo svojej osi rotačnú plochu. Takto vytvorená plocha je časť obálky pohybujúceho sa nástroja. CNC frézovanie má široké priemyselné využitie v odvetviach ako letecký priemysel, zdravotníctvo a spotrebná elektronika. V článku \cite{Skop20} sa možno dočítať viac o výpočte obálok pri 5-osovom CNC obrábaní.  
 
 Obálky sa používajú aj na výpočet trajektórie projektilu vo vzduchu. Riešime klasický problém pohybu hmotného bodu (projektilu) vrhaného pod uhlom k horizontu. S nulovou silou odporu vzduchu je analytické riešenie dobre známe, trajektória projektilu je parabola. So zohľadnením odporu vzduchu úloha nemá presné analytické riešenie, a preto sa vo väčšine prípadov rieši numericky. Silu odporu vzduchu berieme do úvahy s konštantným členom odporu. Systém trajektórií vzniká pri vrhnutí projektilu s rovnakou počiatočnou rýchlosťou, ale s rôznymi uhlami hodu. Na určenie maximálneho rozsahu letu projektilu sa tak použije rovnica obálky. \cite{Chud09}
 
 %krivka s kontrolou chyby (Wallner)
-Medzi ďalšie aplikácie obálok patrí tollerancing - krivka s kontrolou chyby, bezkolízne plánovanie pohybu robota - uvažujeme o konvexných kompaktných krivkách reprezentujúcich pohyb robota v rovine, ktorý mení svoj lokálny tvar pomocou systému afinných transformácií. Dizajn písma - konštrukcia znakov v písmach pre typografické systémy. O ďalších aplikáciach sa čitateľ dozvie v \cite{Pott09}.
+Medzi ďalšie aplikácie obálok patrí tollerancing – krivka s kontrolou chyby, bezkolízne plánovanie pohybu robota – uvažujeme o konvexných kompaktných krivkách reprezentujúcich pohyb robota v rovine, ktorý mení svoj lokálny tvar pomocou systému afinných transformácií. Dizajn písma – konštrukcia znakov v písmach pre typografické systémy. O ďalších aplikáciach sa čitateľ dozvie v \cite{Pott09}.
 
 Kanálové plochy \textit{(channel surfaces)}, rúrkové plochy/potrubia \textit{(pipe surfaces}), \textit{rolling ball blends} a prirodzené kanálové plochy \textit{(natural channel surfaces)} sa vyskytujú ako zmiešavacie povrchy a prechodové plochy medzi potrubiami. Kanálové plochy sú používané v počítačom podporovanom geometrickom dizajne \textit{(Computer Aided Geometric Design)}. V ďalšom texte si ukážeme ich konštrukciu ako obálku sfér.
 
-Obálky - kanálové plochy sa využívajú aj v architektúre. Ako príklad uvádzame Webbov most \textit{(Webb Bridge)}, obr. \ref{fig:webb_bridge}, nachádzajúci sa v Melbourne v Austrálii. Tvar mosta vzdáva hold histórii domorodého obyvateľstva a je vytvorený podľa tradičnej rybárskej pasce Koorie, ktorá sa používala na lov úhorov.
+Obálky - kanálové plochy sa využívajú aj v architektúre. Ako príklad uvádzame Webbov most \textit{(Webb Bridge)}, obr. \ref{fig:webb_bridge} v Melbourne v Austrálii. Tvar mosta vzdáva hold histórii domorodého obyvateľstva a je vytvorený podľa tradičnej rybárskej pasce Koorie, ktorá sa používala na lov úhorov.
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=\textwidth]{images/webb_bridge.jpg}
-	\caption{Webbov most.}
+	\includegraphics[width=\textwidth]{images/webbbridge.jpg}
+	\caption{Webbov most. \cite{WebbBridge}}
 	\label{fig:webb_bridge}
 \end{figure}
 
@@ -341,13 +341,13 @@ Napríklad, pre $t = 1 \in I$ charakteristická krivka je prienikom dvoch plôch
 Z toho môžeme usúdiť, že charakteristická krivka $c_1$ je kružnica so stredom v bode $N = (0, 0, \frac{25}{26})$ v rovine $z = \frac{25}{26}$ a neprechádza stredom sféry $M = \bold{m}(1) = (0,0,1)$, polomer $c_1$ je $r_{c_{1}} = \frac{\sqrt{25}}{26}$ a výsledná obálka je rotačný kužeľ, ako sme uviedli. Vzdialenosť bodov $ \|MN\| = \frac{1}{26}$ a $r = \frac{1}{\sqrt{26}}$, takže platí, že $r > \|MN\|$ a sféra $S$ má s obálkou $\mathcal{E}$ reálny kontakt. Vrchol $A = (0,0,0)$. (chýba obrázok)
 \end{example}
 V skutočnosti, pre všetky $t \in I$, charakteristická krivka je kružnica so stredom ležiacim na $z$-osi v rovine danej rovnicou $\mathcal{\dot{S}} $.
-Bohužiaľ, vo väčšine prípadov sú rovnice, ktoré charakterizujú obálky, príliš zložité a nie sme schopní z nich odvodiť rovnicu obálky.
+Bohužiaľ, vo väčšine prípadov sú rovnice, ktoré charakterizujú obálky, príliš zložité a odvodiť z nich rovnicu obálky nie sme schopní.
 
 Rúrkové povrchy sa často objavujú pri výrobe potrubia. Hladké spojenie medzi dvoma nie nevyhnutne valcovými rúrami $P_1$ a $P_2$ sa modeluje tak, aby bol prechod hladký, bez záhybov, vodotesný alebo dokonca aj parotesný. Na to sa používa technika \textit{rolling ball blends}, využívajúca nasledujúcu myšlienku: Kým sa sféra $S$ s konštantným alebo nekonštantným polomerom $r$ kotúľa na oboch rúrach súčasne, zanecháva stopu $c_i$ na oboch rúrach. Zmiešavacia plocha je tá časť obálky $\mathcal{E}$ jednoparametrického systému sfér, ktorá leží medzi dvoma stopami $c_1$ a $c_2$. Kostrová krivka obálky $\mathcal{E}$ je priesečníkom ekvidištánt \textit{(offsetov)} plôch $P_1$ a $P_2$ vo vzdialenosti $r$. Každá charakteristická krivka spája dva dotykové body zmiešavacej plochy a plochami $P_1$ a $P_2$, ktoré sa majú zmiešavať. Viac detailov možno nájsť v \cite{Ode20}. Na obrázku \ref{fig:rolling_ball_blends} vľavo je znázornená metóda so sférou s konštantným polomerom $r$, vpravo s nekonštantným.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{images/rolling_ball_blends.png}
-	\caption[Technika rolling ball blends.]{Technika rolling ball blend s konštatným polomerom vľavo, s nekonštantným polomerom vpravo.}
+	\caption[Technika rolling ball blends.]{Technika rolling ball blend s konštatným polomerom vľavo, s nekonštantným polomerom vpravo. \cite{Rollingballblends}}
 	\label{fig:rolling_ball_blends}
 \end{figure}
