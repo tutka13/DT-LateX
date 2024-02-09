@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.25)  9 FEB 2024 10:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.25)  9 FEB 2024 23:54
 entering extended mode
 **./main.tex
 (main.tex
@@ -1184,61 +1184,56 @@ Overfull \hbox (21.50911pt too wide) in paragraph at lines 192--193
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12]
-Underfull \vbox (badness 4156) has occurred while \output is active []
-
- [13 <./images/resultant.pdf>]
-<images/lines_in_normal_form.pdf, id=507, 462.52798pt x 346.89601pt>
+[13 <./images/resultant.pdf>] [14]
+<images/lines_in_normal_form.pdf, id=518, 462.52798pt x 346.89601pt>
 File: images/lines_in_normal_form.pdf Graphic file (type pdf)
 <use images/lines_in_normal_form.pdf>
-Package pdftex.def Info: images/lines_in_normal_form.pdf  used on input line 23
-2.
+Package pdftex.def Info: images/lines_in_normal_form.pdf  used on input line 24
+8.
 (pdftex.def)             Requested size: 462.52684pt x 346.89516pt.
 
-Overfull \hbox (21.50911pt too wide) in paragraph at lines 232--233
+Overfull \hbox (21.50911pt too wide) in paragraph at lines 248--249
  [][] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14]
 [15 <./images/lines_in_normal_form.pdf>]
-<images/odr.pdf, id=534, 462.52798pt x 346.89601pt>
+<images/odr.pdf, id=539, 462.52798pt x 346.89601pt>
 File: images/odr.pdf Graphic file (type pdf)
 <use images/odr.pdf>
-Package pdftex.def Info: images/odr.pdf  used on input line 261.
+Package pdftex.def Info: images/odr.pdf  used on input line 277.
 (pdftex.def)             Requested size: 462.52684pt x 346.89516pt.
 
-Overfull \hbox (21.50911pt too wide) in paragraph at lines 261--262
+Overfull \hbox (21.50911pt too wide) in paragraph at lines 277--278
  [][] 
  []
 
-[16 <./images/odr.pdf>] [17]
-<images/webbbridge.jpg, id=571, 1806.75pt x 1204.5pt>
+
+Underfull \vbox (badness 4954) has occurred while \output is active []
+
+ [16]
+[17 <./images/odr.pdf>] [18]
+<images/webbbridge.jpg, id=582, 1806.75pt x 1204.5pt>
 File: images/webbbridge.jpg Graphic file (type jpg)
 <use images/webbbridge.jpg>
-Package pdftex.def Info: images/webbbridge.jpg  used on input line 319.
+Package pdftex.def Info: images/webbbridge.jpg  used on input line 335.
 (pdftex.def)             Requested size: 441.01773pt x 294.01152pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [18]
-[19 <./images/webbbridge.jpg>] [20] [21]
-<images/rolling_ball_blends.png, id=605, 713.66624pt x 253.94875pt>
+ [19 <./images/webbbridge.jpg>] [20] [21]
+<images/rolling_ball_blends.png, id=611, 713.66624pt x 253.94875pt>
 File: images/rolling_ball_blends.png Graphic file (type png)
 <use images/rolling_ball_blends.png>
-Package pdftex.def Info: images/rolling_ball_blends.png  used on input line 404
+Package pdftex.def Info: images/rolling_ball_blends.png  used on input line 423
 .
 (pdftex.def)             Requested size: 441.01773pt x 156.93121pt.
- [22 <./images/rolling_ball_blends.png>] [23] [24]) (numerika.tex [25] [26
+ [22 <./images/rolling_ball_blends.png>] [23] [24]
+
+LaTeX Warning: Reference `lema o lokalnom samoprieniku' on page 25 undefined on
+ input line 506.
+
+[25] [26]) (numerika.tex [27] [28
 
 ]
 Kapitola 2.
-[27] [28]
+[29] [30]
 Overfull \hbox (15.1864pt too wide) in paragraph at lines 47--48
 \T1/cmr/m/n/12 Ak po-známe za-£ia-to£ný bod $\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 
 x[]; y[]; t[]\OT1/cmr/m/n/12 )$\T1/cmr/m/n/12 , v tomto bode vieme vy-£ís-li´ g
@@ -1246,7 +1241,7 @@ ra-dient $\OMS/cmsy/m/n/12 r\OML/cmm/m/it/12 F\OT1/cmr/m/n/12 (\OML/cmm/m/it/12
  x[]; y[]; t[]\OT1/cmr/m/n/12 )$
  []
 
-[29] [30]) [31] [32
+[31] [32]) [33] [34
 
 ]
 No file main.bbl.
@@ -1272,51 +1267,54 @@ Underfull \hbox (badness 1082) in paragraph at lines 265--266
 w . researchgate . net / publication /
  []
 
-[33
+[35
 
 
 ]
-Underfull \hbox (badness 1331) in paragraph at lines 279--280
+Underfull \hbox (badness 1331) in paragraph at lines 282--283
 []\T1/cmr/m/n/12 Vráblíková J. 2022. En-ve-lo-pes of im-pli-cit sur-fa-ces. Mat
 -he-ma-ti-cal Ins-ti-tute
  []
 
 
-Underfull \hbox (badness 5022) in paragraph at lines 279--280
+Underfull \hbox (badness 5022) in paragraph at lines 282--283
 \T1/cmr/m/n/12 of Char-les Uni-ver-sity. Pra-gue. Mas-ter's the-sis. Do-stupné 
 na in-ter-nete:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 279--280
+Underfull \hbox (badness 10000) in paragraph at lines 282--283
 []$\T1/cmtt/m/n/12 https : / / dodo . is . cuni . cz / bitstream / handle / 20 
 . 500 . 11956 / 171858 /
  []
 
 
-Underfull \hbox (badness 1377) in paragraph at lines 285--286
+Underfull \hbox (badness 1377) in paragraph at lines 288--289
 []\T1/cmr/m/n/12 Obrázok Rol-ling ball blends. []$\T1/cmtt/m/n/12 https : / / w
 ww2 . mathematik . tu-[]darmstadt . de /
  []
 
-[34] (AppendixA.tex [35
+[36] (AppendixA.tex [37
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36]
+ [38]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37])
-[38] (main.aux)
+ [39])
+[40] (main.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: DC52BCDAE15260474CD659377F25FC4B;4173.
  ) 
 Here is how much of TeX's memory you used:
- 33689 strings out of 478927
- 778177 string characters out of 2852534
- 1244589 words of memory out of 3000000
- 50796 multiletter control sequences out of 15000+600000
+ 33699 strings out of 478927
+ 778332 string characters out of 2852534
+ 1246589 words of memory out of 3000000
+ 50800 multiletter control sequences out of 15000+600000
  422711 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,18n,103p,1186b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1347,9 +1345,9 @@ m-super/sfrm1200.pfb><C:/Users/tutko/AppData/Local/Programs/MiKTeX/fonts/type1/
 public/cm-super/sfsl1200.pfb><C:/Users/tutko/AppData/Local/Programs/MiKTeX/font
 s/type1/public/cm-super/sfti1200.pfb><C:/Users/tutko/AppData/Local/Programs/MiK
 TeX/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (52 pages, 2160509 bytes).
+Output written on main.pdf (54 pages, 2173950 bytes).
 PDF statistics:
- 855 PDF objects out of 1000 (max. 8388607)
- 143 named destinations out of 1000 (max. 500000)
+ 878 PDF objects out of 1000 (max. 8388607)
+ 149 named destinations out of 1000 (max. 500000)
  265 words of extra memory for PDF output out of 10000 (max. 10000000)
 

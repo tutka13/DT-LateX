@@ -199,10 +199,26 @@ Navyše táto metóda, rovnako ako metóda založená na eliminačnej teórii s 
 Pri použití rezultantov máme lepšiu kontrolu nad zložitosťou výpočtu. Pre dané dva polynómy totiž vieme, ako sa konštruuje rezultant, a tak vieme odhadnúť, s akými veľkými polynómami sa bude počas výpočtu manipulovať, avšak pri hľadaní Gröbnerovej bázy je ťažké odhadnúť, aké zložité S-polynómy sa behom algoritmu vyskytnú. Nie je zriedkavosťou, že S-polynómy sú podstatne komplikovanejšie než vstupné polynómy a výsledná Gröbnerova báza.
 
 \subsection{Prístup projektívnej geometrie}
-Pribudne neskôr.
-%Body duálneho projektívneho priestoru $\mathbb{P}^3 $ možno stotožniť s nadrovinami v $\mathbb{R}^3$. Plochu v duálnom projektívnom priestore možno teda interpretovať ako množinu všetkých jej dotykových nadrovín. Duálny prístup pomôže dokázať, že obálky jednoparametrických systémov sú racionálne.
+Body duálneho projektívneho priestoru $\mathbb{P}^3 $ možno stotožniť s nadrovinami v $\mathbb{R}^3$. Plochu v duálnom projektívnom priestore možno teda interpretovať ako množinu všetkých jej dotykových nadrovín. Pomocou duálneho prístupu sa dá dokázať, že obálky jednoparametrických systémov sú racionálne pre racionálne vstupné údaje. Potrebné teoretické pozadie možno nájsť v \cite{Pott01} a príklady pre výpočet obálky možno nájsť v \cite{Vra22}, \cite{Pet08}.
+Vo všeobecnosti platí, kvadrika v $\mathbb{P}^3$ je kvadrika v duálnom projektívnom priestore, [14, Veta 1.1.35].
 
-%Laguerreova geometria, cyklografické zobrazenie.
+\begin{example}
+Uvažujme systém kružníc s konštantným polomerom $\dfrac{1}{2}$, ktorých stredy ležia na rovinnej krivke $m(t) = (t^3, t^2)$, $t \in \mathbb{R}$.
+$$F_{1} = \{(Q, t) \in \mathbb{R}^2 : (x - t^3)^2 + (y - t^2)^2 - \dfrac{1}{4} = 0, \ t \in \mathbb{R} \}.$$
+Krivka $m_1 \subset \mathbb{R}^3$, ktorá korešponduje so systémom $F_{t}$ v cyklografickom modeli, je krivka $m_1(t) = (t^3, t^2, \dfrac{1}{2}), t \in \mathbb{R}$.
+Systém 
+$$F_{2} = \{(Q, t) \in \mathbb{R}^2 : (x - t^3)^2 + (y - t^2)^2 - \frac{t^2}{4} = 0, t \in \mathbb{R} \}$$
+je jednoparametrický systém kružníc, kde polomery nie sú konštantné a ich stredy ležia na tej istej krivke $m(t)$ ako v predchádzajúcom prípade. Sféry korešpondujúce s $t < 0$ sú negatívne orientované a orientácia sa mení pre kruhy korešpondujúce s $t > 0$. Pre $t = 0$ je prvok $F_0 \in F_t$ bod $(0, 0) \in c(t)$, čo je guľa s nulovým polomerom a bez orientácie.
+Krivka v $\mathbb{R}^3$, ktorá korešponduje s týmto systémom v cyklografickom modeli, je krivka $m_2(t) = (t^3, t^2, \dfrac{t}{2}), t \in \mathbb{R}$.
+Krivka $m(t)$ je ortogonálna projekcia oboch kriviek $m_1$ a $m_2$ a často sa nazýva mediálna os jednoparametrického systému.
+Pozrite si Obrázok 2.10 pre krivky $m_1, m_2 \subset \mathbb{R}^3$, jednoparametrické systémy $F_{1t}$ a $F_{2t}$ rovinných kružníc a ich mediálne osy.
+$\langle \dot{m}(t), \dot{m}(t) \rangle = 9t^4 + 4t^2 + \dfrac{1}{16} \geq 0$
+takisto aj 
+$\langle \dot{m}(t), \dot{m}(t) \rangle = 9t^4 + 4t^2 + \dfrac{1}{4} \geq 0$
+\end{example}
+
+Rovnakým spôsobom môžeme definovať jednoparametrický systém sfér v $\mathbb{R}^3$ ako obraz kriviek v $\mathbb{R}^4$.
+Jedným z dôležitých výsledkov je, že pomocou cyklografického obraz racionálnej krivky možno rozhodnúť o reálnosti obálky a to tak, že cyklografický obraz $m(t) \subset \mathbb{R}^{n+1}$ má reálnu obálku práve vtedy, keď $\langle \dot{m}(t), \dot{m}(t) \rangle \geq 0$ a rovnosť platí len pre izolované hodnoty $t$, kde $\langle \dot{m}(t), \dot{m}(t) \rangle = m_1^2(t) + m_2^2(t) + \ldots + m_n^2(t) - m_{n+1}^2(t).$
 
 \subsection{Kinematický prístup}
 Ďalším zo spôsobov, ako chápať jednoparametrické systémy plôch v $\mathbb{R}^n$ je pozerať sa na ne ako na množinu všetkých transformácií daného povrchu $P$. Povrch $P$ sa transformuje na ostatné prvky systému prostredníctvom prvkov vhodnej grupy transformácií. Táto množina transformácii má okrem štruktúry grupy aj štruktúru hladkej variety \textit{(smooth manifold)}. Tieto grupy nazývame Lieove grupy.
@@ -357,7 +373,10 @@ Obálka sfér sa teda skladá zo systému kružníc. Charakteristická kružnica
 $$ \mathcal{\dot{S}}_t \cap T(t, s).$$
 Pre parameter $s$ potom platí $s = \dfrac{r(t) \dot{r}(t)}{\langle \dot{m}(t), \dot{m}(t) \rangle }, $
 po dosadení do $T(t, s)$ získavame
-$$ C_t = m(t) - \frac{r(t) \dot{r}(t)}{\langle \dot{m(t)}, \dot{m(t)} \rangle} \dot{m}(t).$$
+\begin{equation}
+\label{eq:stred charakteristickej kruznice}
+C_t = m(t) - \frac{r(t) \dot{r}(t)}{\langle \dot{m}(t), \dot{m}(t) \rangle} \dot{m}(t).
+\end{equation}
 
 Rozoberme si nasledujúce dva prípady
 \begin{itemize}
@@ -430,8 +449,8 @@ $$d_1 = \dfrac{ | m(t_2) - m(t_1) |}{2} - \dfrac{\dfrac{r(t_2)-r(t_1)}{t_2-t_1} 
 Pre $\varepsilon = t_2 - t_1 $ idúce k nule
 $$ d_1 = - \dfrac{\dot{r}(t_1) r(t_1)}{| \dot{m}(t_1) |}.  $$
 Odkiaľ stred priesečníkovej kružnice je
-
-Nekonečne blízke sféry sa pretínajú pre $t_0$ v rovine $\mathcal{\dot{S}}_{t_0}$, a preto je prienik daný ako 
+$$S = m(t) + d_t \dfrac{\dot{m}(t)}{| \dot{m}(t)|} = m(t) - \dot{m}(t)\dfrac{r(t)\dot{r}(t)}{|\dot{m}(t)|}. $$
+Tento stred $S$ zodpovedá rovnici \ref{eq:stred charakteristickej kruznice} pre stred $C_t$ charakteristickej kružnice $c_t$. Nekonečne blízke sféry sa pretínajú pre $t_0$ v rovine $\mathcal{\dot{S}}_{t_0}$, a preto je prienik daný ako 
 $$ \mathcal{L}_{t_0} = \mathcal{S}_{t_0} \cap \mathcal{\dot{S}}_{t_0} = c_{t_0}. $$
 V prípade, že lokálny prienik $\mathcal{L}_{s}$ pre nejaké $s \in I$ prázdny, neexistuje pre $s$ žiadna charakteristická kružnica a uvedená rovnosť stále platí.
 \end{proof}
@@ -466,7 +485,10 @@ pre nejaké $t_0 \in I.$
 
 \begin{proof}
 Ľubovoľný bod $Q \in \mathcal{L}_{t_0}$ patrí podľa definície k priesečníku infinitezimálne blízkych kruhov pre $t_0$. V bode $Q$ sa navzájom pretínajú aj roviny $\mathcal{\dot{S}}_t$, v ktorých sa tieto kružnice nachádzajú. Tieto roviny patria do systému $\mathcal{\dot{S}}$, ktorá je definovaná ako množina nulových bodov funkcie $\dfrac{\partial F}{\partial t}(Q, t_0)$, a sú tiež infinitezimálne blízko, to znamená, že platí $\dfrac{\partial^2 F}{\partial t^2}(Q,t_0) = 0, $ teda
-$$ \langle \ddot{m}(t_0), Q-m(t_0) \rangle - \langle \dot{m}(t_0), \dot{m}(t_0) \rangle + \dot{r}^2(t_0) + r(t_0)\ddot{r}(t_0) = 0. $$
+\begin{equation}
+\label{eq:druha derivacia}
+\langle \ddot{m}(t_0), Q-m(t_0) \rangle - \langle \dot{m}(t_0), \dot{m}(t_0) \rangle + \dot{r}^2(t_0) + r(t_0)\ddot{r}(t_0) = 0. 
+\end{equation}
 Bod $Q$ leží na charakteristickej kružnici $c_{t_0},$ preto spĺňa rovnice $F $ a $\dfrac{\partial F}{\partial t}.$ Toto je nutná podmienka.
 
 Opačne, predpokladajme, že sú všetky rovnosti z tejto lemy splnené pre nejaké $t_0 \in I$ a $Q \in \mathbb{R}^3, $ potom platí
@@ -479,11 +501,36 @@ Q &\in \lim_{\varepsilon \to 0} \left( \mathcal{S}(t_0) \cap \mathcal{S}(t_0 + \
 Týmto sme ukázali, že bod $Q$ patrí do samoprieniku charakteristických kružníc pre $t_0$ a podľa definície \ref{definicia lokalny samoprienik} patrí do lokálneho samoprieniku $\mathcal{L}_{t_0}$ obálky $\mathcal{E}$.
 \end{proof}
 
-Pomocou lemy \ref{kriterium o lokalnom samoprieniku} možno ľahko rozhodnúť, či bod $Q \in \mathbb{R}^3$ pre parameter $t_0 \in I$ patrí do lokálneho samoprieniku $\mathcal{L}_{t_0}.$ Ak je $t_0$ neznáme, mohli by sme určiť korene rovnice $\dfrac{\partial^2 F}{\partial t^2}$. Ak by pár $(Q, t_i)$ spĺňal obe ďalšie rovnice, bod $Q$ patrí do lokálneho samoprieniku obálky $\mathcal{E}$ pre $t_0.$
-Často však riešime otázku, či obálka má lokálny samoprienik a ak áno, pre aké hodnoty parametrov $t \in I$. Pre túto otázku nie je použitie lemy vhodné, preto predkladáme lepšie kritérium. Pozrieme sa na to z geometrického hľadiska.
+Pomocou lemy \ref{kriterium o lokalnom samoprieniku} možno ľahko rozhodnúť, či bod $Q \in \mathbb{R}^3$ pre parameter $t_0 \in I$ patrí do lokálneho samoprieniku $\mathcal{L}_{t_0}.$ Ak je $t_0$ neznáme, mohli by sme určiť $t_i$ z rovnice $\dfrac{\partial^2 F}{\partial t^2}$. Ak by pár $(Q, t_i)$ spĺňal obe ďalšie rovnice, bod $Q$ patrí do lokálneho samoprieniku obálky $\mathcal{E}$ pre $t_i.$
 
-Rovnica $\dfrac{\partial^2 F}{\partial t^2}$ definuje znova systém rovín $\mathcal{\ddot{S}}(t)$. Pre každé $t \in I$ je $\ddot{m}(t)$ kolmé na $\mathcal{\ddot{S}}(t).$
+Často však riešime otázku, či obálka má lokálny samoprienik a ak áno, pre aké hodnoty parametrov $t \in I$. Pre túto otázku nie je použitie lemy \ref{lema o lokalnom samoprieniku} vhodné, preto predkladáme lepšie kritérium. Pozrieme sa na to z geometrického hľadiska. Rovnica \ref{eq:druha derivacia} definuje systém rovín $\mathcal{\ddot{S}}_t$. Pre každé $t \in I$ je vektor $\ddot{c}(t)$ kolmý na $\mathcal{\ddot{S}}_t.$ Prvé dve rovnice z lemy \ref{eq:druha derivacia} definujú pre pevné $q \in I$ charakteristickú kružnicu $c_q$, to znamená, že pre $q$ existuje lokálny samoprienik $\mathcal{L}_q$, ak sa $c_q$ a $\mathcal{\ddot{S}}_q$ pretínajú. 
 
+Keďže roviny $\mathcal{\dot{S}}$ aj $\mathcal{\ddot{S}}$ sú rovnobežné s vektorom $ \vec{\dot{m}}(q) \times \vec{\ddot{c}(q)} $, môžu byť obe roviny projektované do roviny obsahujúcej $ c(q) $ a kolmej na $ \vec{b}_q $ a problém priesečníka môžeme takto vyriešiť. Pod $ \vec{b}_q $ sa rozumie binormálový vektor definovaný v bode krivky $ c(q) $. Nech $\vec{n}(q)$ je zodpovedajúci normálový vektor. Označme prienik priamok $C_q + s \cdot \vec{n}_q$, $s \in \mathbb{R}$, s rovinou $\mathcal{\ddot{S}}_t$ ako $S_t = C_q + s_t \cdot \vec{n}_q$ s prislúchajúcim parametrom $s_t$. Bod $S_t$ lokálneho prieniku pre $q$ existuje, ak jeho vzdialenosť od stredu $C_t$ charakteristickej kružnice $c_t$ je menšia ako jej polomer $l_t.$ 
+
+\begin{align*}
+| S_t - C_t | &= | s_t \cdot \vec{n}_t | = | s_t | \leq l_t.
+\end{align*}
+
+Toto je ďalšie kritérium pre existenciu lokálneho prieniku. Na určenie parametra priesečníka $ s $ sa pozrieme na nasledovnú rovnicu. Do rovnice \ref{eq:druha derivacia} dosadíme vyjadrenie pre bod prieniku.
+
+\begin{align*}
+\langle \ddot{m}(t), C_t + s_t \cdot \vec{n}(t) - m(t) \rangle - \langle \dot{c}, \dot{c}\rangle + \dot{r}^2(t) + r(t)\ddot{r}(t) = 0
+\end{align*}
+
+Odkiaľ pre parameter $ s_t $ dostávame vyjadrenie
+
+\begin{align*}
+s_t &= \dfrac{ r(t) \dot{r}(t) \langle \dot{m}(t), \ddot{m}(t) \rangle + \langle \dot{m}(t), \dot{m}(t) \rangle^2 - \left( \dot{r}^2(t) + r(t)\ddot{r}(t) \right) \langle \dot{m}(t), \dot{m}(t) \rangle}{\langle \dot{m}(t), \dot{m}(t) \rangle \langle \ddot{m}(t) , \vec{n}(t) \rangle}.
+\end{align*}
+
+Tento výraz je síce dosť zložitý, avšak umožňuje identifikovať intervaly parametra $ t $, v ktorých existuje lokálny priesečník obálky $ \mathcal{E} $ prostredníctvom nájdenia koreňov funkcie $ g(t) = | s_t | - l_t $. Samotné priesečníky pre to však nemusia byť známe.
+
+\textit{Pozorovanie:}
+Pomocou kritéria je samozrejme možné efektívne rozhodnúť o tom, či sa obalová plocha lokálne pretína v určitom parametri $t_0 \in I$ bez toho, aby sme poznali priesečníky bodov. Tie sa potom dajú ľahko určiť pomocou
+$$
+S_{\pm} = C_{t_0} + s_{t_0} \cdot \vec{n}_{t_0} + b_{\pm} \cdot \vec{b}_{t_0},
+$$
+kde $ b_{-} \in \mathbb{R} $ a $ b_{+} \in \mathbb{R} $ a $s_t^2 + b_{\pm}^2 = l_t^2 $ z pravouhlých trojuholníkov $C_{t_0}S_{-}S_{t_0}$ a $C_{t_0}S_{+}S_{t_0}$
 
 \subsection{Konštantný polomer}
 V prípade, že je funkcia polomeru $r(t) \equiv r $ konštantná, platí $C_t = M_t,  l_t = r$ a $\dot{r} = 0,$ preto 
@@ -505,7 +552,9 @@ Ak je polomer konštantný, dostávame pre parameter samoprieseku
 $$ s_t = \dfrac{\sqrt{4t^2 + 1}^3}{2}, $$
 ktorý je rovný obrátenej hodnote krivosti krivky $m(t)$ a to
 $$ \kappa(t) = \frac{\lVert  \dot{m}(t) \times \ddot{m}(t) \rVert}{\lVert \dot{m}(t) \rVert^3} = \frac{2}{\sqrt{4t^2 + 1}^3}. $$
+Zrejme platí, že $s_t$ je vždy väčšie alebo rovné $\frac{1}{2}$. To znamená, že pre všetky polomery $r < \frac{1}{2}$ neexistuje žiadny lokálny prienik. Väčšie polomery vedú k lokálnemu pretínaniu obálky pre hodnoty parametrov $t$ v intervale $[-a; a]$ s $a \in \mathbb{R}^+ \setminus {0}$. Napríklad pre $r = 1$ platí $a = \frac{1}{2} \sqrt{2 \sqrt{3} - 1} \approx 0.38$.
 \end{example}
+
 Vzťah medzi krivosťou a parametrom priesečníka neplatí len pre tento konkrétny príklad, ale vo všeobecnosti.
 
 \begin{lemma}
