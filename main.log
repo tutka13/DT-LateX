@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.25)  12 FEB 2024 20:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.25)  1 MAR 2024 16:07
 entering extended mode
 **./main.tex
 (main.tex
@@ -879,24 +879,24 @@ LaTeX Font Info:    Overwriting math alphabet `\mathscr' in version `bold'
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -966,7 +966,7 @@ G,.JBIG2,.JB2,.eps]
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 59.
+Package hyperref Info: Link coloring OFF on input line 58.
 
 (C:\Users\tutko\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -980,9 +980,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count335
 )
-LaTeX Info: Redefining \ref on input line 59.
-LaTeX Info: Redefining \pageref on input line 59.
-LaTeX Info: Redefining \nameref on input line 59.
+LaTeX Info: Redefining \ref on input line 58.
+LaTeX Info: Redefining \pageref on input line 58.
+LaTeX Info: Redefining \nameref on input line 58.
  (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -991,15 +991,15 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 \symgns@font=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 59.
-Package gensymb Info: Math companion symbols declared on input line 59.
-LaTeX Info: Redefining \degree on input line 59.
-LaTeX Info: Redefining \celsius on input line 59.
+(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 58.
+Package gensymb Info: Math companion symbols declared on input line 58.
+LaTeX Info: Redefining \degree on input line 58.
+LaTeX Info: Redefining \celsius on input line 58.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 59.
-LaTeX Info: Redefining \ohm on input line 59.
-Package gensymb Info: Using \textohm for \ohm on input line 59.
-Package gensymb Info: Using \textmu for \micro on input line 59.
+erthousand on input line 58.
+LaTeX Info: Redefining \ohm on input line 58.
+Package gensymb Info: Using \textohm for \ohm on input line 58.
+Package gensymb Info: Using \textmu for \micro on input line 58.
 
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
@@ -1008,26 +1008,26 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 
 {C:/Users/tutko/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 111
+LaTeX Font Info:    Trying to load font information for U+msa on input line 110
 .
 
 (C:\Users\tutko\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 111
+LaTeX Font Info:    Trying to load font information for U+msb on input line 110
 .
 
 (C:\Users\tutko\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 [2]
-<images/zadanieJT.pdf, id=110, 597.50731pt x 845.04607pt>
+<images/zadanieJT.pdf, id=154, 597.50731pt x 845.04607pt>
 File: images/zadanieJT.pdf Graphic file (type pdf)
 <use images/zadanieJT.pdf>
-Package pdftex.def Info: images/zadanieJT.pdf  used on input line 139.
+Package pdftex.def Info: images/zadanieJT.pdf  used on input line 138.
 (pdftex.def)             Requested size: 485.1222pt x 686.09537pt.
 
-Overfull \hbox (4.82378pt too wide) in paragraph at lines 139--140
+Overfull \hbox (4.82378pt too wide) in paragraph at lines 138--139
 [] [] 
  []
 
@@ -1037,25 +1037,25 @@ Overfull \hbox (4.82378pt too wide) in paragraph at lines 139--140
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.160 \newpage
+l.159 \newpage
                [3]pdfTeX warning (ext4): destination with the same identifier (
 name{page.iv}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.172 \newpage
+l.171 \newpage
                [4] [5] [6
 
-] (main.toc)
+] (main.toc [7])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [7] [8
-
-] (main.lof)
+ [8] (main.lof)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [9] [10
+ [9
+
+] [10
 
 ] (main.lot)
 \tf@lot=\write7
@@ -1070,7 +1070,7 @@ l.172 \newpage
 
 ]
 Kapitola 1.
-<images/system.pdf, id=256, 462.52798pt x 346.89601pt>
+<images/system.pdf, id=311, 462.52798pt x 346.89601pt>
 File: images/system.pdf Graphic file (type pdf)
 <use images/system.pdf>
 Package pdftex.def Info: images/system.pdf  used on input line 9.
@@ -1081,7 +1081,7 @@ Overfull \hbox (21.50911pt too wide) in paragraph at lines 9--10
  []
 
 [3 <./images/system.pdf>]
-<images/one_element_of_system.pdf, id=297, 462.52798pt x 346.89601pt>
+<images/one_element_of_system.pdf, id=352, 462.52798pt x 346.89601pt>
 File: images/one_element_of_system.pdf Graphic file (type pdf)
 <use images/one_element_of_system.pdf>
 Package pdftex.def Info: images/one_element_of_system.pdf  used on input line 3
@@ -1106,7 +1106,7 @@ ol kolmý na $[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t\OT1/cmr/m/n/12 )[]$
  []
 
 [6]
-<images/concentric_circles.pdf, id=350, 462.52798pt x 346.89601pt>
+<images/concentric_circles.pdf, id=405, 462.52798pt x 346.89601pt>
 File: images/concentric_circles.pdf Graphic file (type pdf)
 <use images/concentric_circles.pdf>
 Package pdftex.def Info: images/concentric_circles.pdf  used on input line 111.
@@ -1122,7 +1122,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
 [8 <./images/concentric_circles.pdf>]
-<images/system_with_envelope_unlimited_domain.pdf, id=384, 462.52798pt x 346.89
+<images/system_with_envelope_unlimited_domain.pdf, id=439, 462.52798pt x 346.89
 601pt>
 File: images/system_with_envelope_unlimited_domain.pdf Graphic file (type pdf)
 <use images/system_with_envelope_unlimited_domain.pdf>
@@ -1134,7 +1134,7 @@ Overfull \hbox (21.50911pt too wide) in paragraph at lines 139--140
  [][] 
  []
 
-<images/system_with_correct_envelope.pdf, id=386, 462.52798pt x 346.89601pt>
+<images/system_with_correct_envelope.pdf, id=441, 462.52798pt x 346.89601pt>
 File: images/system_with_correct_envelope.pdf Graphic file (type pdf)
 <use images/system_with_correct_envelope.pdf>
 Package pdftex.def Info: images/system_with_correct_envelope.pdf  used on input
@@ -1147,7 +1147,7 @@ Overfull \hbox (21.50911pt too wide) in paragraph at lines 148--149
 
 [9 <./images/system_with_envelope_unlimited_domain.pdf> <./images/system_with_c
 orrect_envelope.pdf>]
-<images/too_complicated_equations.pdf, id=434, 462.52798pt x 346.89601pt>
+<images/too_complicated_equations.pdf, id=489, 462.52798pt x 346.89601pt>
 File: images/too_complicated_equations.pdf Graphic file (type pdf)
 <use images/too_complicated_equations.pdf>
 Package pdftex.def Info: images/too_complicated_equations.pdf  used on input li
@@ -1168,7 +1168,7 @@ r/m/n/12 + 96419840\OML/cmm/m/it/12 x[]y[] \OT1/cmr/m/n/12 +
  []
 
 [11]
-<images/resultant.pdf, id=483, 462.52798pt x 346.89601pt>
+<images/resultant.pdf, id=538, 462.52798pt x 346.89601pt>
 File: images/resultant.pdf Graphic file (type pdf)
 <use images/resultant.pdf>
 Package pdftex.def Info: images/resultant.pdf  used on input line 195.
@@ -1182,7 +1182,7 @@ Overfull \hbox (21.50911pt too wide) in paragraph at lines 195--196
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12 <./images/resultant.pdf>] [13]
-<images/lines_in_normal_form.pdf, id=525, 462.52798pt x 346.89601pt>
+<images/lines_in_normal_form.pdf, id=580, 462.52798pt x 346.89601pt>
 File: images/lines_in_normal_form.pdf Graphic file (type pdf)
 <use images/lines_in_normal_form.pdf>
 Package pdftex.def Info: images/lines_in_normal_form.pdf  used on input line 25
@@ -1198,7 +1198,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14]
 [15 <./images/lines_in_normal_form.pdf>]
-<images/odr.pdf, id=554, 462.52798pt x 346.89601pt>
+<images/odr.pdf, id=609, 462.52798pt x 346.89601pt>
 File: images/odr.pdf Graphic file (type pdf)
 <use images/odr.pdf>
 Package pdftex.def Info: images/odr.pdf  used on input line 283.
@@ -1209,7 +1209,7 @@ Overfull \hbox (21.50911pt too wide) in paragraph at lines 283--284
  []
 
 [16 <./images/odr.pdf>] [17]
-<images/webbbridge.jpg, id=595, 1806.75pt x 1204.5pt>
+<images/webbbridge.jpg, id=650, 1806.75pt x 1204.5pt>
 File: images/webbbridge.jpg Graphic file (type jpg)
 <use images/webbbridge.jpg>
 Package pdftex.def Info: images/webbbridge.jpg  used on input line 351.
@@ -1235,82 +1235,128 @@ ra-dient $\OMS/cmsy/m/n/12 r\OML/cmm/m/it/12 F\OT1/cmr/m/n/12 (\OML/cmm/m/it/12
 ]
 Kapitola 3.
 [27] [28]
-<images/rolling_ball_blends.png, id=668, 713.66624pt x 253.94875pt>
+<images/rolling_ball_blends.png, id=723, 713.66624pt x 253.94875pt>
 File: images/rolling_ball_blends.png Graphic file (type png)
 <use images/rolling_ball_blends.png>
 Package pdftex.def Info: images/rolling_ball_blends.png  used on input line 83.
 
 (pdftex.def)             Requested size: 441.01773pt x 156.93121pt.
- [29] [30 <./images/rolling_ball_blends.png>] [31] [32] [33]) [34]
-No file main.bbl.
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
-51.
+ [29] [30 <./images/rolling_ball_blends.png>] [31] [32] [33])
+(implementacia.tex [34]
+Kapitola 4.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 8
+.
 (C:\Users\tutko\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Underfull \hbox (badness 2781) in paragraph at lines 253--254
+[35
+
+] [36]) (vysledky_prace.tex [37] [38
+
+]
+Kapitola 5.
+
+Underfull \vbox (badness 6078) has occurred while \output is active []
+
+ [39]
+Overfull \hbox (1.73001pt too wide) in paragraph at lines 51--53
+\T1/cmr/m/n/12 je ro-vina kolmá na do-ty-kový vek-tor $[]\OT1/cmr/m/n/12 (\OML/
+cmm/m/it/12 t\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ;$ \T1/cmr/m/n/12 ak platí, ºe v
+ek-tory $\OT1/cmr/m/n/12 ([]\OML/cmm/m/it/12 ; []; []\OT1/cmr/m/n/12 )$ \T1/cmr
+/m/n/12 a $\OT1/cmr/m/n/12 ([]\OML/cmm/m/it/12 ; []; []$
+ []
+
+[40]
+Overfull \hbox (6.36407pt too wide) detected at line 116
+[]
+ []
+
+
+Overfull \hbox (43.03766pt too wide) detected at line 120
+[]
+ []
+
+[41]) (zaver.tex [42]) [43
+
+] [44
+
+]
+No file main.bbl.
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
+[]\T1/cmr/m/n/12 Blender do-wn-load. Do-stupné na in-ter-nete:[]$\T1/cmtt/m/n/1
+2 https : / / www . blender . org /
+ []
+
+
+Underfull \hbox (badness 2781) in paragraph at lines 268--269
 []\T1/cmr/m/n/12 Biernet A. 2016. Vi-su-ali-sie-rung und gra-fis-che An-wen-dun
 g von Ka-nalf-lä-
  []
 
 
-Underfull \hbox (badness 2644) in paragraph at lines 259--260
+Underfull \hbox (badness 2644) in paragraph at lines 274--275
 \T1/cmr/m/n/12 sin. 10.18260/1-2--6898. Do-stupné na in-ter-nete: []$\T1/cmtt/m
 /n/12 https : / / 216 . 185 . 13 . 174 /
  []
 
+[45
 
-Underfull \hbox (badness 1082) in paragraph at lines 267--268
+
+]
+Underfull \hbox (badness 1082) in paragraph at lines 282--283
 \T1/cmr/m/n/12 107. Do-stupné na in-ter-nete: []$\T1/cmtt/m/n/12 https : / / ww
 w . researchgate . net / publication /
  []
 
-[35
+[46]
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
+[]\T1/cmr/m/n/12 Visual Stu-dio Code do-wn-load. Do-stupné na in-ter-nete:[]$\T
+1/cmtt/m/n/12 https : / / code .
+ []
 
 
-
-]
-Underfull \hbox (badness 1331) in paragraph at lines 290--291
+Underfull \hbox (badness 1331) in paragraph at lines 310--311
 []\T1/cmr/m/n/12 Vráblíková J. 2022. En-ve-lo-pes of im-pli-cit sur-fa-ces. Mat
 -he-ma-ti-cal Ins-ti-tute
  []
 
 
-Underfull \hbox (badness 5022) in paragraph at lines 290--291
+Underfull \hbox (badness 5022) in paragraph at lines 310--311
 \T1/cmr/m/n/12 of Char-les Uni-ver-sity. Pra-gue. Mas-ter's the-sis. Do-stupné 
 na in-ter-nete:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--291
+Underfull \hbox (badness 10000) in paragraph at lines 310--311
 []$\T1/cmtt/m/n/12 https : / / dodo . is . cuni . cz / bitstream / handle / 20 
 . 500 . 11956 / 171858 /
  []
 
 
-Underfull \hbox (badness 1377) in paragraph at lines 295--296
-[]\T1/cmr/m/n/12 Obrázok Rol-ling ball blends. []$\T1/cmtt/m/n/12 https : / / w
-ww2 . mathematik . tu-[]darmstadt . de /
+Underfull \hbox (badness 10000) in paragraph at lines 312--313
+[]\T1/cmr/m/n/12 Obrázok Web-bov Most. Do-stupné na in-ter-nete: []$\T1/cmtt/m/
+n/12 http : / / www .
  []
 
-[36] [37] (AppendixA.tex [38
+[47] (AppendixA.tex [48
 
-] [39]
+] [49]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40]
+ [50]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41])
-[42] (main.aux)
+ [51])
+[52] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 1B3F043A796D52778E2854E5F59640AD;4049.
+(rerunfilecheck)             Checksum: 4D4541CE47530C6EE1AB554E6D4CA6DF;5367.
  ) 
 Here is how much of TeX's memory you used:
- 33706 strings out of 478927
- 778394 string characters out of 2852534
+ 33770 strings out of 478927
+ 779279 string characters out of 2852534
  1246589 words of memory out of 3000000
- 50800 multiletter control sequences out of 15000+600000
+ 50820 multiletter control sequences out of 15000+600000
  422711 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,18n,103p,1211b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1341,9 +1387,9 @@ m-super/sfrm1200.pfb><C:/Users/tutko/AppData/Local/Programs/MiKTeX/fonts/type1/
 public/cm-super/sfsl1200.pfb><C:/Users/tutko/AppData/Local/Programs/MiKTeX/font
 s/type1/public/cm-super/sfti1200.pfb><C:/Users/tutko/AppData/Local/Programs/MiK
 TeX/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (56 pages, 2180496 bytes).
+Output written on main.pdf (66 pages, 2220918 bytes).
 PDF statistics:
- 910 PDF objects out of 1000 (max. 8388607)
- 153 named destinations out of 1000 (max. 500000)
- 311 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1044 PDF objects out of 1200 (max. 8388607)
+ 188 named destinations out of 1000 (max. 500000)
+ 399 words of extra memory for PDF output out of 10000 (max. 10000000)
 

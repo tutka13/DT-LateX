@@ -21,4 +21,15 @@
 \contentsline {section}{\numberline {3.2}Lokálny prienik}{30}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Lokálny samoprienik}{31}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Konštantný polomer}{33}{subsection.3.3.1}%
-\contentsline {chapter}{Príloha A}{39}{chapter*.21}%
+\contentsline {chapter}{\numberline {4}Implementácia}{35}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Motivácia}{35}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Blender}{35}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Skriptovanie}{35}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Python}{36}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Knižnice}{36}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Implementácia}{37}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Programovacie prostredie}{37}{subsection.4.4.3}%
+\contentsline {chapter}{\numberline {5}Výsledky práce}{39}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Obálka elipsoidov}{39}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Obálka elíps}{40}{section.5.2}%
+\contentsline {chapter}{Príloha A}{49}{chapter*.22}%
